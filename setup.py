@@ -37,5 +37,8 @@ setup(
         'six==1.7.3',
         'wsgiref==0.1.2',
     ],
+    entry_points={'console_scripts': [
+        'api-replay = manage:manager.run',
+    ]},
     license=read_file('LICENSE'),
 )
