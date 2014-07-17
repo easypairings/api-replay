@@ -60,7 +60,7 @@ setup(
         'wsgiref==0.1.2',
     ],
     entry_points={'console_scripts': [
-        'api-replay = manage:manager.run',
+        'api-replay = api_replay.manage:manager.run',
     ]},
     tests_require=[
         'pytest',
