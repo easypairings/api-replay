@@ -58,6 +58,7 @@ setup(
         'Unidecode==0.04.16',
         'Werkzeug==0.9.6',
         'wsgiref==0.1.2',
+        'rq-scheduler==0.5.0',
     ],
     entry_points={'console_scripts': [
         'api-replay = api_replay.manage:manager.run',

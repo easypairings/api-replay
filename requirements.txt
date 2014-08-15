@@ -14,3 +14,4 @@ rom==0.26.5
 rq==0.4.6
 six==1.7.3
 wsgiref==0.1.2
+rq-scheduler==0.5.0
