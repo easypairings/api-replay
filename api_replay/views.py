@@ -1,3 +1,5 @@
+from __future__ import absolute_import, print_function, unicode_literals
+
 from flask import abort, request
 
 from .core import app
@@ -21,7 +23,8 @@ def accept_request(source_slug):
         source=source,
     )
     req.save()
-    replay_request.delay(req.id)
+    for destination in req.source.destinations:
+        replay_request.delay(req.id, destination.id)
     return '', 201
 
 
