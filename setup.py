@@ -56,7 +56,7 @@ setup(
         'rq==0.4.6',
         'six==1.7.3',
         'Unidecode==0.04.16',
-        'Werkzeug==0.9.6',
+        'Werkzeug==0.15.3',
         'wsgiref==0.1.2',
         'rq-scheduler==0.5.0',
     ],
