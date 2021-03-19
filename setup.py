@@ -47,7 +47,7 @@ setup(
         'Flask-RQ==0.2',
         'Flask-Script==2.0.5',
         'itsdangerous==0.24',
-        'Jinja2==2.7.3',
+        'Jinja2==2.11.3',
         'MarkupSafe==0.23',
         'python-slugify==0.0.7',
         'redis==2.10.1',
